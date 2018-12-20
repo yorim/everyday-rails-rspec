@@ -44,10 +44,9 @@ jobs:
       - run:
           name: Run rspec
           command: |
-            bundle exec rspec --profile 10 \
+            bundle exec rspec --format progress \
                               --format RspecJunitFormatter \
                               --out test_results/rspec.xml \
-                              --format progress \
 
       # collect reports
       - store_test_results:
