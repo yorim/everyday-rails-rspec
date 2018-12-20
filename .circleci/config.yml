@@ -44,7 +44,7 @@ jobs:
       - run:
           name: Run rspec
           command: |
-            bundle exec rspec --process 5 \
+            bundle exec rspec --progress 5 \
                               --format RspecJunitFormatter \
                               --out test_results/rspec.xml \
 
