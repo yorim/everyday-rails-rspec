@@ -8,8 +8,11 @@ workflows:
     jobs:
       build:
         parallelism: 2
-        working_directory: /everydayrails-rspec-2017withCircleci
+        working_directory: ~/everydayrails-rspec-2017withCircleci
           steps:
+            - run:
+              name: Bundle Install
+              command: bundle check || bundle install
             - run:
                 name: RSpec
                 command: |
