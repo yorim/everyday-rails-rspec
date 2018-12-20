@@ -27,6 +27,7 @@ group :development, :test do
   gem 'selenium-webdriver'
   gem 'chromedriver-helper'
   gem 'launchy', '~>2.4.3'
+  gem 'rspec_junit_formatter'
 end
 
 group :development do
