@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1b8f02b-2ace-4ba2-87da-0567303d2e63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/everydayrails-rspec-2017.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/everydayrails-rspec-2017.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -26,20 +28,20 @@
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Development__everydayrails_rspec_2017.rcov" NAME="Development: everydayrails-rspec-2017 Coverage Results" MODIFIED="1544699358440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@HomeController_index__everydayrails_rspec_2017.rcov" NAME="HomeController#index: everydayrails-rspec-2017 Coverage Results" MODIFIED="1544867656232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@User_is_invalid_without_an_email_address__everydayrails_rspec_2017.rcov" NAME="User is invalid without an email address: everydayrails-rspec-2017 Coverage Results" MODIFIED="1544700242822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017withCircleci@spec__everydayrails_rspec_2017.rcov" NAME="spec: everydayrails-rspec-2017 Coverage Results" MODIFIED="1545315118648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017withCircleci@spec__everydayrails_rspec_2017.rcov" NAME="spec: everydayrails-rspec-2017 Coverage Results" MODIFIED="1545320720547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="384">
               <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="664">
@@ -48,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/features/tasks_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+              <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -523,14 +525,11 @@
       <workItem from="1544755793304" duration="496000" />
       <workItem from="1544756299605" duration="8264000" />
       <workItem from="1544874143927" duration="46778000" />
-      <workItem from="1545305422451" duration="6104000" />
+      <workItem from="1545305422451" duration="7481000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="spec__everydayrails-rspec-2017 - 2018.12.20 at 14h 16m 20s.xml">
-      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
-    </history-entry>
     <history-entry file="spec__everydayrails-rspec-2017 - 2018.12.20 at 14h 17m 24s.xml">
       <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
     </history-entry>
@@ -558,9 +557,12 @@
     <history-entry file="spec__everydayrails-rspec-2017 - 2018.12.20 at 23h 12m 09s.xml">
       <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
     </history-entry>
+    <history-entry file="spec__everydayrails-rspec-2017 - 2018.12.21 at 00h 45m 31s.xml">
+      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98264000" />
+    <option name="totallyTimeSpent" value="99641000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -580,7 +582,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49852508" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49852508" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49705014" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -588,7 +590,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3299363" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49852508" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49852508" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50294983" side_tool="true" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49928468" weight="0.3299363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -939,20 +941,6 @@
         <state relative-caret-position="-3533" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/tasks_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -974,6 +962,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="664">
           <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/tasks_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
         </state>
       </provider>
     </entry>
