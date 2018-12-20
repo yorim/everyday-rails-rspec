@@ -6,8 +6,10 @@ orbs:
 workflows:
   "Hello Workflow":
     jobs:
-      - hello/hello-build
-  - run:
-      name: run tests
-      command: |
-        rails test test
+      parallelism: 2
+        working_directory: /everydayrails-rspec-2017withCircleci
+      steps:
+        - run:
+            name: run tests
+            command: |
+              rails test test
