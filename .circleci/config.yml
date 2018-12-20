@@ -44,9 +44,11 @@ jobs:
       - run:
           name: Run rspec
           command: |
-            bundle exec rspec --progress 5 \
+            bundle exec rspec --profile 5 \
                               --format RspecJunitFormatter \
                               --out test_results/rspec.xml \
+                              --format progress \
+                              $(circleci tests glob "spec/**/*_spec.rb" | circleci tests split --split-by=timings)"
 
       # collect reports
       - store_test_results:
