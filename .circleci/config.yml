@@ -6,7 +6,12 @@ orbs:
 workflows:
   "Hello Workflow":
     jobs:
-      build:
+        build:
+          docker:
+            - image: circleci/ruby:2.5.0
+        test:
+          docker:
+            - image: circleci/ruby:2.5.0
         parallelism: 2
         working_directory: ~/everydayrails-rspec-2017withCircleci
           steps:
