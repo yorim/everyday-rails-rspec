@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1b8f02b-2ace-4ba2-87da-0567303d2e63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cci-config-generator.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/test.sqlite3-journal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/test.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -20,25 +21,17 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Note__everydayrails_rspec_2017.rcov" NAME="Note: everydayrails-rspec-2017 Coverage Results" MODIFIED="1544627701826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017withCircleci@Development__everydayrails_rspec_2017.rcov" NAME="Development: everydayrails-rspec-2017 Coverage Results" MODIFIED="1545312962505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@spec__everydayrails_rspec_2017.rcov" NAME="spec: everydayrails-rspec-2017 Coverage Results" MODIFIED="1545283691635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@HomeController_returns_a_200_respoonse__everydayrails_rspec_2017.rcov" NAME="HomeController returns a 200 respoonse: everydayrails-rspec-2017 Coverage Results" MODIFIED="1544874218062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@test__everydayrails_rspec_2017.rcov" NAME="test: everydayrails-rspec-2017 Coverage Results" MODIFIED="1544874664627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Development__everydayrails_rspec_2017.rcov" NAME="Development: everydayrails-rspec-2017 Coverage Results" MODIFIED="1544699358440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@HomeController_index__everydayrails_rspec_2017.rcov" NAME="HomeController#index: everydayrails-rspec-2017 Coverage Results" MODIFIED="1544867656232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@User_is_invalid_without_an_email_address__everydayrails_rspec_2017.rcov" NAME="User is invalid without an email address: everydayrails-rspec-2017 Coverage Results" MODIFIED="1544700242822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017withCircleci@spec__everydayrails_rspec_2017.rcov" NAME="spec: everydayrails-rspec-2017 Coverage Results" MODIFIED="1545311010460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017withCircleci@spec__everydayrails_rspec_2017.rcov" NAME="spec: everydayrails-rspec-2017 Coverage Results" MODIFIED="1545312984684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/note_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
@@ -48,76 +41,61 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cci-config-generator.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="92" lean-forward="true" selection-start-line="91" selection-end-line="92" />
+            <state relative-caret-position="1200">
+              <caret line="80" column="6" lean-forward="true" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/controllers/tasks_controller_spec.rb">
+        <entry file="file://$PROJECT_DIR$/tmp.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/support/request_spec_helper.rb">
+        <entry file="file://$PROJECT_DIR$/tmp/pids/server.pid">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tmp/restart.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/development.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
+            <state relative-caret-position="-4776" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/log/test.log">
+          <provider selected="true" editor-type-id="LargeFileEditor">
+            <state relative-caret-position="-3533" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="735">
-              <caret line="49" column="25" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/tmp/capybara/capybara-201812200022587836091078.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/project_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1245">
-              <caret line="83" selection-start-line="83" selection-end-line="83" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/tmp/capybara/capybara-201812200024315707595713.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/features/projects_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/paperclip-6.1.0/lib/paperclip/geometry_detector_factory.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/models/task_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/tmp/capybara/capybara-201812201416174235348441.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -192,6 +170,11 @@
             <path>
               <item name="everydayrails-rspec-2017withCircleci" type="b2602c69:ProjectViewProjectNode" />
               <item name="everydayrails-rspec-2017withCircleci" type="462c0819:PsiDirectoryNode" />
+              <item name="log" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everydayrails-rspec-2017withCircleci" type="b2602c69:ProjectViewProjectNode" />
+              <item name="everydayrails-rspec-2017withCircleci" type="462c0819:PsiDirectoryNode" />
               <item name="spec" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -211,6 +194,23 @@
               <item name="everydayrails-rspec-2017withCircleci" type="462c0819:PsiDirectoryNode" />
               <item name="spec" type="462c0819:PsiDirectoryNode" />
               <item name="features" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everydayrails-rspec-2017withCircleci" type="b2602c69:ProjectViewProjectNode" />
+              <item name="everydayrails-rspec-2017withCircleci" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everydayrails-rspec-2017withCircleci" type="b2602c69:ProjectViewProjectNode" />
+              <item name="everydayrails-rspec-2017withCircleci" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="capybara" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="everydayrails-rspec-2017withCircleci" type="b2602c69:ProjectViewProjectNode" />
+              <item name="everydayrails-rspec-2017withCircleci" type="462c0819:PsiDirectoryNode" />
+              <item name="tmp" type="462c0819:PsiDirectoryNode" />
+              <item name="pids" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -494,20 +494,11 @@
       <workItem from="1544755793304" duration="496000" />
       <workItem from="1544756299605" duration="8264000" />
       <workItem from="1544874143927" duration="46778000" />
-      <workItem from="1545305422451" duration="2947000" />
+      <workItem from="1545305422451" duration="3595000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="spec__everydayrails-rspec-2017 - 2018.12.20 at 00h 16m 36s.xml">
-      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
-    </history-entry>
-    <history-entry file="spec__everydayrails-rspec-2017 - 2018.12.20 at 00h 19m 33s.xml">
-      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
-    </history-entry>
-    <history-entry file="spec__everydayrails-rspec-2017 - 2018.12.20 at 00h 23m 01s.xml">
-      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
-    </history-entry>
     <history-entry file="spec__everydayrails-rspec-2017 - 2018.12.20 at 00h 24m 34s.xml">
       <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
     </history-entry>
@@ -529,9 +520,18 @@
     <history-entry file="spec__everydayrails-rspec-2017 - 2018.12.20 at 21h 19m 17s.xml">
       <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
     </history-entry>
+    <history-entry file="spec__everydayrails-rspec-2017 - 2018.12.20 at 22h 34m 00s.xml">
+      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
+    </history-entry>
+    <history-entry file="spec__everydayrails-rspec-2017 - 2018.12.20 at 22h 34m 11s.xml">
+      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
+    </history-entry>
+    <history-entry file="spec__everydayrails-rspec-2017 - 2018.12.20 at 22h 36m 34s.xml">
+      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95107000" />
+    <option name="totallyTimeSpent" value="95755000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -544,13 +544,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14735337" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14735337" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299363" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49852508" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49852508" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49705014" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -558,7 +559,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3299363" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49852508" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49852508" weight="0.3299363" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50294983" side_tool="true" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49928468" weight="0.3299363" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -630,58 +631,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/bundler-1.17.1/lib/bundler.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/home_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/activesupport-5.1.1/lib/active_support/dependencies.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="291" selection-start-line="291" selection-end-line="291" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/paperclip-5.1.0/lib/paperclip/storage/s3.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="301" selection-start-line="301" selection-end-line="301" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/paperclip-5.1.0/lib/paperclip/storage/filesystem.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/paperclip-5.1.0/lib/paperclip/attachment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="193" selection-start-line="193" selection-end-line="193" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../.rbenv/versions/2.5.3/lib/ruby/gems/2.5.0/gems/paperclip-5.1.0/lib/paperclip/thumbnail.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -964,9 +913,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cci-config-generator.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="92" lean-forward="true" selection-start-line="91" selection-end-line="92" />
+        <state relative-caret-position="1200">
+          <caret line="80" column="6" lean-forward="true" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/capybara/capybara-201812200022587836091078.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/capybara/capybara-201812200024315707595713.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/capybara/capybara-201812201416174235348441.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/pids/server.pid">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tmp/restart.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/development.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4776" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/test.log">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-3533" />
       </provider>
     </entry>
   </component>
