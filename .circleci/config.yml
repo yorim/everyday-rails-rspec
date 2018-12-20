@@ -6,10 +6,16 @@ orbs:
 workflows:
   "Hello Workflow":
     jobs:
-      parallelism: 2
+      build:
+        parallelism: 2
         working_directory: /everydayrails-rspec-2017withCircleci
-      steps:
-        - run:
-            name: run tests
-            command: |
-              rails test test
+          steps:
+            - run:
+                name: RSpec
+                command: |
+                  circleci tests glob \
+                  spec/controllers/**/*.rb \
+                  spec/models/**/*.rb \
+                  spec/features/**/*.rb \
+                  spec/requests/**/*.rb \
+                  xargs bundle exec rspec
