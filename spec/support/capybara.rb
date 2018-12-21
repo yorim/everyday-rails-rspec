@@ -13,7 +13,7 @@ Capybara.register_driver :selenium do |app|
                                                                                                    chrome_options: {
                                                                                                        args: ['headless',
                                                                                                        'window-size=1280,768',
-                                                                                                              'remote-debugging-port=4444'],
+                                                                                                              'remote-debugging-port=9515'],
                                                                                                    },
                                 ),
                                 http_client: client,
