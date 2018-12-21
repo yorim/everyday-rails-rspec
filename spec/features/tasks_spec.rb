@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.feature "Tasks", type: :feature do
 
   # ユーザーがタスクの状態を切り替える
-  scenario "user toggles a task", js: true do
+  scenario "user toggles a task", js: true, :retry => 3 do
   user = FactoryBot.create(:user)
   project = FactoryBot.create(:project,
                               name: "RSpec tutorial",

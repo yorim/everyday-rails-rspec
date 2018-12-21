@@ -24,10 +24,10 @@ group :development, :test do
   gem 'pry-doc'
   gem 'pry-stack_explorer'
   gem 'pry-byebug'
-  gem 'selenium-webdriver'
   gem 'chromedriver-helper'
   gem 'launchy', '~>2.4.3'
   gem 'rspec_junit_formatter'
+  gem 'rspec-retry'
 end
 
 group :development do
