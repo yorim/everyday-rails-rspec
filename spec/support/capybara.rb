@@ -19,3 +19,6 @@ Capybara.register_driver :selenium do |app|
 end
 
 Capybara.javascript_driver = :selenium
+Capybara.app_host = "http://localhost:3000"
+Capybara.server_host = "localhost"
+Capybara.server_port = "3000"
