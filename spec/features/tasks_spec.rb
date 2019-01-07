@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.feature "Tasks", type: :feature do
+RSpec.describe "Tasks", type: :feature do
 
   # ユーザーがタスクの状態を切り替える
   scenario "user toggles a task", js: true do
@@ -10,7 +10,7 @@ RSpec.feature "Tasks", type: :feature do
                               owner: user)
     task = project.tasks.create!(name: "Finish RSpec tutorial")
 
-    skip visit root_path
+    visit root_path
 
     click_link "Sign in"
     fill_in "Email", with: user.email
