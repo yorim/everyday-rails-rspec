@@ -11,8 +11,7 @@ Capybara.register_driver :selenium do |app|
                                 browser: :chrome,
                                 desired_capabilities: Selenium::WebDriver::Remote::Capabilities.chrome(
                                                                                                    chrome_options: {
-                                                                                                       args: ['headless',
-                                                                                                       'window-size=1280,768' 'remote-debugging-port=9222'],
+                                                                                                       args: ['headless', 'window-size=1280,768'],
                                                                                                    },
                                 ),
                                 http_client: client,
