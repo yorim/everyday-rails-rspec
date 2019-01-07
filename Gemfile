@@ -28,6 +28,11 @@ group :development, :test do
   gem 'launchy', '~>2.4.3'
   gem 'rspec_junit_formatter'
   gem 'rspec-retry'
+  gem "shoulda-matchers",
+      git: 'https://github.com/thoughtbot/shoulda-matchers.git'
+  gem 'parallel_tests'
+  gem 'vcr'
+  gem 'webmock'
 end
 
 group :development do
