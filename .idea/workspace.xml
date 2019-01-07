@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d1b8f02b-2ace-4ba2-87da-0567303d2e63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/support/capybara.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/support/capybara.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -26,7 +27,7 @@
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@Development__everydayrails_rspec_2017.rcov" NAME="Development: everydayrails-rspec-2017 Coverage Results" MODIFIED="1544699358440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@HomeController_index__everydayrails_rspec_2017.rcov" NAME="HomeController#index: everydayrails-rspec-2017 Coverage Results" MODIFIED="1544867656232" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
     <SUITE FILE_PATH="coverage/everydayrails_rspec_2017@User_is_invalid_without_an_email_address__everydayrails_rspec_2017.rcov" NAME="User is invalid without an email address: everydayrails-rspec-2017 Coverage Results" MODIFIED="1544700242822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
-    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017withCircleci@spec__everydayrails_rspec_2017.rcov" NAME="spec: everydayrails-rspec-2017 Coverage Results" MODIFIED="1546860735192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
+    <SUITE FILE_PATH="coverage/everydayrails_rspec_2017withCircleci@spec__everydayrails_rspec_2017.rcov" NAME="spec: everydayrails-rspec-2017 Coverage Results" MODIFIED="1546861121778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="everydayrails-rspec-2017" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -48,7 +49,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/features/tasks_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
@@ -74,17 +75,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/support/capybara.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+            <state relative-caret-position="213">
+              <caret line="54" column="7" lean-forward="true" selection-start-line="52" selection-end-line="54" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -142,11 +143,11 @@
         <option value="$PROJECT_DIR$/spec/models/note_spec.rb" />
         <option value="$PROJECT_DIR$/cci-cofig-generatar.sh" />
         <option value="$PROJECT_DIR$/cci-config-generator.sh" />
-        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/.circleci/config.yml" />
         <option value="$PROJECT_DIR$/spec/features/tasks_spec.rb" />
         <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/spec/support/capybara.rb" />
       </list>
     </option>
@@ -530,14 +531,11 @@
       <workItem from="1544756299605" duration="8264000" />
       <workItem from="1544874143927" duration="46778000" />
       <workItem from="1545305422451" duration="13773000" />
-      <workItem from="1546259521952" duration="5781000" />
+      <workItem from="1546259521952" duration="6205000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="spec__everydayrails-rspec-2017 - 2019.01.07 at 16h 11m 18s.xml">
-      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
-    </history-entry>
     <history-entry file="spec__everydayrails-rspec-2017 - 2019.01.07 at 16h 12m 08s.xml">
       <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
     </history-entry>
@@ -565,9 +563,12 @@
     <history-entry file="spec__everydayrails-rspec-2017 - 2019.01.07 at 20h 32m 30s.xml">
       <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
     </history-entry>
+    <history-entry file="spec__everydayrails-rspec-2017 - 2019.01.07 at 20h 38m 57s.xml">
+      <configuration name="spec: everydayrails-rspec-2017" configurationId="RakeRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111714000" />
+    <option name="totallyTimeSpent" value="112138000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -580,7 +581,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1509299" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -966,13 +966,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/tasks_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
@@ -980,17 +973,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/support/capybara.rb">
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        <state relative-caret-position="213">
+          <caret line="54" column="7" lean-forward="true" selection-start-line="52" selection-end-line="54" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+    <entry file="file://$PROJECT_DIR$/spec/support/capybara.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/tasks_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="43" lean-forward="true" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
         </state>
       </provider>
     </entry>

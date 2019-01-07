@@ -2,8 +2,8 @@ require 'capybara/rails'
 require 'capybara/rspec'
 require 'selenium-webdriver'
 
-# client = Selenium::WebDriver::Remote::Http::Default.new
-# client.read_timeout = 120 #instead of the default 60
+client = Selenium::WebDriver::Remote::Http::Default.new
+client.read_timeout = 120 #instead of the default 60
 
 Capybara.register_driver :chrome do |app|
   Capybara::Selenium::Driver.new(app, browser: :chrome)
