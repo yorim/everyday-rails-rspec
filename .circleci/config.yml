@@ -47,7 +47,7 @@ jobs:
             bundle exec rspec --profile 5 \
 #                              --format RspecJunitFormatter \
 #                              --out test_results/rspec.xml \
-                              --format progress \
+#                              --format progress \
 
       # collect reports
       - store_test_results:
