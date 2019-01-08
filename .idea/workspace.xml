@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1b8f02b-2ace-4ba2-87da-0567303d2e63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -43,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="48" />
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -530,7 +530,7 @@
       <workItem from="1544756299605" duration="8264000" />
       <workItem from="1544874143927" duration="46778000" />
       <workItem from="1545305422451" duration="13773000" />
-      <workItem from="1546259521952" duration="10214000" />
+      <workItem from="1546259521952" duration="10592000" />
     </task>
     <servers />
   </component>
@@ -567,7 +567,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116147000" />
+    <option name="totallyTimeSpent" value="116525000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -580,7 +580,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1509299" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -990,7 +989,7 @@
     <entry file="file://$PROJECT_DIR$/.circleci/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="48" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="48" />
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
         </state>
       </provider>
     </entry>
