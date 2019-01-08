@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1b8f02b-2ace-4ba2-87da-0567303d2e63" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/test.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/support/capybara.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/support/capybara.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
@@ -76,8 +74,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/support/capybara.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -532,7 +530,7 @@
       <workItem from="1544756299605" duration="8264000" />
       <workItem from="1544874143927" duration="46778000" />
       <workItem from="1545305422451" duration="13773000" />
-      <workItem from="1546259521952" duration="7945000" />
+      <workItem from="1546259521952" duration="8264000" />
     </task>
     <servers />
   </component>
@@ -569,7 +567,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113878000" />
+    <option name="totallyTimeSpent" value="114197000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -582,6 +580,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1509299" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -990,8 +989,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/support/capybara.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
